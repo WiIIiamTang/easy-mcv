@@ -6,3 +6,5 @@ Small toolset to create multiple coordinated views in d3.js v6, meant to parse L
 - bar graph
 - pie chart
 - Likert scale graph
+
+Live example at https://qcbs.ca/dashboard/pages/index.php?graph=edi_survey&lang=en
