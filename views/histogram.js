@@ -2,7 +2,7 @@
  * Creates a histogram (binned bars [x, y) ) at the given div selector.
  * Returns the update function for that graph.
  */
- export const createHistogram = (svgSelector, stateAttr, name_en, name_fr, state, updateApp) => {
+ export const createHistogram = (svgSelector, stateAttr, colorScheme=null, name_en, name_fr, state, updateApp) => {
     const margin = {
         top: 10,
         bottom: 40,

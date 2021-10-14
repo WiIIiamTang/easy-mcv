@@ -35,7 +35,7 @@ const start_mcv_controller = (lang, initial_state, views, row_annotator, path) =
     }
 
     views.forEach((v) => {
-        v.update = v._fn(v.svgSelector, v.stateAttr, v.name_en, v.name_fr, state, updateApp); 
+        v.update = v._fn(v.svgSelector, v.stateAttr, v.colorScheme, v.name_en, v.name_fr, state, updateApp); 
     });
 
     parse_csv_and_start_app(path, state, row_annotator, updateApp);
